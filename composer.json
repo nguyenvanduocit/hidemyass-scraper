@@ -1,6 +1,15 @@
 {
+    "name": "duocnv/hidemyass-api",
+    "type": "library",
+    "description": "Hidemyass API",
+    "keywords": [],
+    "homepage": "https://senviet.org",
+    "license": "MIT",
     "require": {
         "php-curl-class/php-curl-class": "^4.6",
         "symfony/dom-crawler": "^2.7"
+    },
+    "autoload": {
+        "psr-4": { "HideMyAssAPI\\": "src/" }
     }
 }
